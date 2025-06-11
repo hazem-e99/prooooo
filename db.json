@@ -1,0 +1,1830 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "email": "admin@exam.com",
+      "password": "admin123",
+      "name": "Admin User"
+    }
+  ],
+  "students": [
+    {
+      "id": "2",
+      "email": "ahmed@student.com",
+      "password": "student123",
+      "name": "Ahmed Mohamed"
+    },
+    {
+      "id": "3",
+      "email": "mohamed@student.com",
+      "password": "student123",
+      "name": "Mohamed Ali"
+    },
+    {
+      "id": "4",
+      "email": "sara@student.com",
+      "password": "student123",
+      "name": "Sara Ahmed"
+    },
+    {
+      "id": "5",
+      "email": "fatima@student.com",
+      "password": "student123",
+      "name": "Fatima Hassan"
+    },
+    {
+      "id": "6",
+      "email": "omar@student.com",
+      "password": "student123",
+      "name": "Omar Khalil"
+    },
+    {
+      "id": "7",
+      "email": "nour@student.com",
+      "password": "student123",
+      "name": "Nour Mahmoud"
+    },
+    {
+      "id": "8",
+      "email": "yasmine@student.com",
+      "password": "student123",
+      "name": "Yasmine Ibrahim"
+    },
+    {
+      "id": "9",
+      "email": "karim@student.com",
+      "password": "student123",
+      "name": "Karim Hassan"
+    },
+    {
+      "id": "10",
+      "email": "layla@student.com",
+      "password": "student123",
+      "name": "Layla Mohamed"
+    },
+    {
+      "id": "11",
+      "email": "zainab@student.com",
+      "password": "student123",
+      "name": "Zainab Ali"
+    },
+    {
+      "id": "12",
+      "email": "adam@student.com",
+      "password": "student123",
+      "name": "Adam Khalil"
+    },
+    {
+      "id": "13",
+      "email": "mariam@student.com",
+      "password": "student123",
+      "name": "Mariam Hassan"
+    },
+    {
+      "id": "14",
+      "email": "yusuf@student.com",
+      "password": "student123",
+      "name": "Yusuf Ahmed"
+    },
+    {
+      "id": "15",
+      "email": "nada@student.com",
+      "password": "student123",
+      "name": "Nada Mahmoud"
+    },
+    {
+      "id": "1749590235652",
+      "name": "hazem",
+      "email": "zoka.live2000@gmail.com",
+      "password": "112233"
+    },
+    {
+      "id": "1749601778150",
+      "name": "Hazem Essam",
+      "email": "ha@ha.com",
+      "password": "112233"
+    },
+    {
+      "id": "1749601799220",
+      "name": "hazem aa",
+      "email": "zoka.live20000@gmail.com",
+      "password": "112233"
+    }
+  ],
+  "exams": [
+    {
+      "id": "1",
+      "title": "Mathematics Final Exam",
+      "description": "Comprehensive mathematics exam covering algebra, calculus, and statistics",
+      "duration": 120,
+      "totalMarks": 100,
+      "passingMarks": 60,
+      "createdBy": 2,
+      "createdAt": "2024-03-15T10:00:00.000Z",
+      "startTime": "2025-06-12T09:00:00.000Z",
+      "endTime": "2025-06-12T11:00:00.000Z",
+      "questions": [
+        {
+          "id": "1",
+          "text": "Solve the quadratic equation: x² + 5x + 6 = 0",
+          "type": "text",
+          "marks": 10,
+          "answer": "x = -2 or x = -3"
+        },
+        {
+          "id": "2",
+          "text": "Calculate the derivative of f(x) = x³ + 2x² - 5x + 3",
+          "type": "text",
+          "marks": 10,
+          "answer": "f'(x) = 3x² + 4x - 5"
+        },
+        {
+          "id": "3",
+          "text": "What is the probability of rolling a sum of 7 with two dice?",
+          "type": "text",
+          "marks": 10,
+          "answer": "1/6"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Physics Midterm",
+      "description": "Physics exam covering mechanics and thermodynamics",
+      "duration": 90,
+      "totalMarks": 100,
+      "passingMarks": 50,
+      "createdBy": 2,
+      "createdAt": "2024-03-15T11:00:00.000Z",
+      "startTime": "2025-06-13T10:00:00.000Z",
+      "endTime": "2025-06-13T11:30:00.000Z",
+      "questions": [
+        {
+          "id": "1",
+          "text": "State Newton's First Law of Motion",
+          "type": "text",
+          "marks": 10,
+          "answer": "An object at rest stays at rest and an object in motion stays in motion unless acted upon by an external force"
+        },
+        {
+          "id": "2",
+          "text": "Calculate the work done when a force of 10N moves an object 5m",
+          "type": "text",
+          "marks": 10,
+          "answer": "50 Joules"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Chemistry Quiz",
+      "description": "Basic chemistry concepts and periodic table",
+      "duration": 60,
+      "totalMarks": 50,
+      "passingMarks": 25,
+      "createdBy": 2,
+      "createdAt": "2024-03-15T12:00:00.000Z",
+      "startTime": "2025-06-14T14:00:00.000Z",
+      "endTime": "2025-06-14T15:00:00.000Z",
+      "questions": [
+        {
+          "id": "1",
+          "text": "What is the atomic number of Carbon?",
+          "type": "text",
+          "marks": 5,
+          "answer": "6"
+        },
+        {
+          "id": "2",
+          "text": "Balance the equation: H2 + O2 → H2O",
+          "type": "text",
+          "marks": 5,
+          "answer": "2H2 + O2 → 2H2O"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Biology Final",
+      "description": "Comprehensive biology exam covering cell biology, genetics, and ecology",
+      "duration": 150,
+      "totalMarks": 100,
+      "passingMarks": 60,
+      "createdAt": "2024-03-18T10:00:00.000Z",
+      "startTime": "2024-03-23T09:00:00.000Z",
+      "endTime": "2024-03-23T11:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "English Literature",
+      "description": "Analysis of classic literature and poetry",
+      "duration": 120,
+      "totalMarks": 100,
+      "passingMarks": 60,
+      "createdAt": "2024-03-19T10:00:00.000Z",
+      "startTime": "2024-03-24T10:00:00.000Z",
+      "endTime": "2024-03-24T12:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "History Quiz",
+      "description": "World history and important events",
+      "duration": 60,
+      "totalMarks": 50,
+      "passingMarks": 30,
+      "createdAt": "2024-03-20T10:00:00.000Z",
+      "startTime": "2024-03-25T14:00:00.000Z",
+      "endTime": "2024-03-25T15:00:00.000Z"
+    },
+    {
+      "title": "Geography Finall",
+      "description": "Physical and political geography",
+      "id": "7"
+    },
+    {
+      "title": "Computer Scienceee",
+      "description": "Programming and algorithms",
+      "id": "8"
+    },
+    {
+      "id": "308f",
+      "title": "math 3",
+      "description": ".................",
+      "startTime": "2025-06-11T04:57",
+      "duration": 10,
+      "endTime": "2025-06-11T02:07",
+      "totalMarks": 20
+    },
+    {
+      "id": "9828",
+      "title": "MATH 5",
+      "description": "...............",
+      "startTime": "2025-06-11T05:35",
+      "duration": 60,
+      "endTime": "2025-06-11T06:35",
+      "totalMarks": 60
+    },
+    {
+      "id": "e511",
+      "title": "math 6",
+      "description": "111111111111111",
+      "startTime": "2025-06-11T05:42:00+02:00",
+      "duration": 60,
+      "endTime": "2025-06-11T06:42:00+02:00",
+      "totalMarks": 60
+    },
+    {
+      "id": "5d9e",
+      "title": "math 67",
+      "description": "................",
+      "startTime": "2025-06-11T05:51:00+02:00",
+      "duration": 120,
+      "endTime": "2025-06-11T07:51:00+02:00",
+      "totalMarks": 10
+    },
+    {
+      "id": "e807",
+      "title": "math77",
+      "description": "1111111111",
+      "startTime": "2025-06-11T05:52:00+02:00",
+      "duration": 60,
+      "endTime": "2025-06-11T06:52:00+02:00",
+      "totalMarks": 10
+    },
+    {
+      "id": "35bb",
+      "title": "math90",
+      "description": "...............",
+      "startTime": "2025-06-11T06:03",
+      "duration": 60,
+      "endTime": "2025-06-11T07:03",
+      "totalMarks": 60
+    },
+    {
+      "id": "0d7f",
+      "title": "mathssss",
+      "description": ".............",
+      "startTime": "2025-06-11T06:14",
+      "duration": 60,
+      "endTime": "2025-06-11T07:14",
+      "totalMarks": 100
+    },
+    {
+      "id": "5a0f",
+      "title": "science",
+      "description": ".................",
+      "startTime": "2025-06-11T06:45",
+      "duration": 60,
+      "endTime": "2025-06-11T07:45",
+      "totalMarks": 10
+    },
+    {
+      "id": "9332",
+      "title": "qqqqqqq",
+      "description": "..................",
+      "startTime": "2025-06-11T15:55",
+      "duration": 10,
+      "endTime": "2025-06-11T16:05",
+      "totalMarks": 10
+    },
+    {
+      "id": "e5a4",
+      "title": "22222",
+      "description": "111111111111111",
+      "startTime": "2025-06-11T16:04",
+      "duration": 11,
+      "endTime": "2025-06-11T16:15",
+      "totalMarks": 11
+    },
+    {
+      "id": "7052",
+      "title": "222222",
+      "description": "1111111111111111",
+      "startTime": "2025-06-11T16:06",
+      "duration": 11,
+      "endTime": "2025-06-11T16:17",
+      "totalMarks": 1
+    },
+    {
+      "id": "5041",
+      "title": "11111111",
+      "description": "1111111111",
+      "startTime": "2025-06-11T16:12",
+      "duration": 11,
+      "endTime": "2025-06-11T16:23",
+      "totalMarks": 9
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "examId": "1",
+      "text": "What is the derivative of f(x) = x² + 3x + 2?",
+      "options": [
+        "2x + 3",
+        "x² + 3",
+        "2x + 2",
+        "x + 3"
+      ],
+      "correctOption": 0,
+      "marks": 10
+    },
+    {
+      "id": "2",
+      "examId": "1",
+      "text": "Solve the equation: 2x + 5 = 13",
+      "options": [
+        "x = 3",
+        "x = 4",
+        "x = 5",
+        "x = 6"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "3",
+      "examId": "1",
+      "text": "What is the value of π (pi) to two decimal places?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "4",
+      "examId": "2",
+      "text": "What is Newton's First Law of Motion?",
+      "options": [
+        "F = ma",
+        "An object in motion stays in motion unless acted upon by an external force",
+        "For every action there is an equal and opposite reaction",
+        "The force of gravity is proportional to mass"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "5",
+      "examId": "2",
+      "text": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ],
+      "correctOption": 2,
+      "marks": 10
+    },
+    {
+      "id": "6",
+      "examId": "2",
+      "text": "What is the formula for kinetic energy?",
+      "options": [
+        "mgh",
+        "½mv²",
+        "Fd",
+        "Pt"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "7",
+      "examId": "3",
+      "text": "What is the chemical symbol for gold?",
+      "options": [
+        "Ag",
+        "Fe",
+        "Au",
+        "Cu"
+      ],
+      "correctOption": 2,
+      "marks": 10
+    },
+    {
+      "id": "8",
+      "examId": "3",
+      "text": "What is the pH of a neutral solution?",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "10"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "9",
+      "examId": "3",
+      "text": "Which element has the atomic number 1?",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Oxygen",
+        "Carbon"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "10",
+      "examId": "4",
+      "text": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "11",
+      "examId": "4",
+      "text": "What is the process by which plants make their own food?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Digestion",
+        "Fermentation"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "12",
+      "examId": "4",
+      "text": "What is the main function of red blood cells?",
+      "options": [
+        "Fight infection",
+        "Transport oxygen",
+        "Form blood clots",
+        "Produce antibodies"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "13",
+      "examId": "5",
+      "text": "Who wrote 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "14",
+      "examId": "5",
+      "text": "What is the main theme of 'To Kill a Mockingbird'?",
+      "options": [
+        "Love and romance",
+        "Racial injustice",
+        "War and peace",
+        "Coming of age"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "15",
+      "examId": "5",
+      "text": "Who is the author of '1984'?",
+      "options": [
+        "George Orwell",
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "H.G. Wells"
+      ],
+      "correctOption": 0,
+      "marks": 10
+    },
+    {
+      "id": "16",
+      "examId": "6",
+      "text": "When did World War II end?",
+      "options": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "correctOption": 2,
+      "marks": 10
+    },
+    {
+      "id": "17",
+      "examId": "6",
+      "text": "Who was the first President of the United States?",
+      "options": [
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington",
+        "Benjamin Franklin"
+      ],
+      "correctOption": 2,
+      "marks": 10
+    },
+    {
+      "id": "18",
+      "examId": "6",
+      "text": "What was the main cause of the French Revolution?",
+      "options": [
+        "Religious conflict",
+        "Economic inequality",
+        "Foreign invasion",
+        "Natural disaster"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "19",
+      "examId": "7",
+      "text": "What is the capital of Japan?",
+      "options": [
+        "Seoul",
+        "Beijing",
+        "Tokyo",
+        "Bangkok"
+      ],
+      "correctOption": 2,
+      "marks": 10
+    },
+    {
+      "id": "20",
+      "examId": "7",
+      "text": "Which is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correctOption": 3,
+      "marks": 10
+    },
+    {
+      "id": "21",
+      "examId": "7",
+      "text": "What is the longest river in the world?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Mississippi",
+        "Yangtze"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "22",
+      "examId": "8",
+      "text": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Markup Language",
+        "Hyper Text Modern Language"
+      ],
+      "correctOption": 0,
+      "marks": 10
+    },
+    {
+      "id": "23",
+      "examId": "8",
+      "text": "Which of these is not a programming language?",
+      "options": [
+        "Python",
+        "Java",
+        "HTML",
+        "C++"
+      ],
+      "correctOption": 2,
+      "marks": 10
+    },
+    {
+      "id": "24",
+      "examId": "8",
+      "text": "What is the time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "correctOption": 1,
+      "marks": 10
+    },
+    {
+      "id": "7747",
+      "text": "what are 5 x 7 ? ",
+      "options": [
+        "42",
+        "40",
+        "1",
+        "2"
+      ],
+      "correctOption": 0,
+      "examId": "308f"
+    },
+    {
+      "id": "68aa",
+      "text": "5*2 ?",
+      "options": [
+        "1",
+        "10",
+        "12",
+        "15"
+      ],
+      "correctOption": 0,
+      "examId": "9828"
+    },
+    {
+      "id": "4131",
+      "text": "6*7",
+      "options": [
+        "42",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctOption": 0,
+      "examId": "5d9e"
+    },
+    {
+      "id": "3ac6",
+      "text": "2*2\n",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOption": 3,
+      "examId": "e807"
+    },
+    {
+      "id": "ffd6",
+      "text": "5*6",
+      "options": [
+        "30",
+        "2",
+        "12",
+        "10"
+      ],
+      "correctOption": 0,
+      "examId": "35bb"
+    },
+    {
+      "text": "5 * 6 ? ",
+      "options": [
+        "300",
+        "31",
+        "33",
+        "32"
+      ],
+      "correctOption": 0,
+      "examId": "0d7f",
+      "marks": 5,
+      "id": "bc21"
+    },
+    {
+      "id": "3c31",
+      "text": "1*1",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOption": 0,
+      "examId": "5a0f"
+    },
+    {
+      "id": "7265",
+      "text": "11",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOption": 3,
+      "examId": "9332"
+    },
+    {
+      "id": "b040",
+      "text": "11",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOption": 0,
+      "examId": "e5a4"
+    },
+    {
+      "id": "f1ba",
+      "text": "11",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOption": 2,
+      "examId": "7052"
+    },
+    {
+      "id": "55a3",
+      "text": "1",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOption": 3,
+      "examId": "5041"
+    }
+  ],
+  "results": [
+    {
+      "id": "1",
+      "examId": "1",
+      "userId": "2",
+      "studentName": "Ahmed Mohamed",
+      "examTitle": "Mathematics Final Exam",
+      "score": 85,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 100,
+      "timestamp": "2024-03-20T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "examId": "1",
+      "userId": "3",
+      "studentName": "Mohamed Ali",
+      "examTitle": "Mathematics Final Exam",
+      "score": 95,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 90,
+      "timestamp": "2024-03-20T10:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "examId": "2",
+      "userId": "4",
+      "studentName": "Sara Ahmed",
+      "examTitle": "Physics Midterm",
+      "score": 75,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 80,
+      "timestamp": "2024-03-21T09:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "examId": "3",
+      "userId": "6",
+      "studentName": "Omar Khalil",
+      "examTitle": "Chemistry Quiz",
+      "score": 90,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 45,
+      "timestamp": "2024-03-22T11:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "examId": "3",
+      "userId": "7",
+      "studentName": "Nour Mahmoud",
+      "examTitle": "Chemistry Quiz",
+      "score": 65,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 50,
+      "timestamp": "2024-03-22T11:10:00.000Z"
+    },
+    {
+      "id": "7",
+      "examId": "4",
+      "userId": "8",
+      "studentName": "Yasmine Ibrahim",
+      "examTitle": "Biology Final",
+      "score": 85,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 120,
+      "timestamp": "2024-03-23T14:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "examId": "4",
+      "userId": "2",
+      "studentName": "Ahmed Mohamed",
+      "examTitle": "Biology Final",
+      "score": 95,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 110,
+      "timestamp": "2024-03-23T14:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "examId": "1",
+      "userId": "4",
+      "studentName": "Sara Ahmed",
+      "examTitle": "Mathematics Final Exam",
+      "score": 70,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 95,
+      "timestamp": "2024-03-20T11:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "examId": "2",
+      "userId": "6",
+      "studentName": "Omar Khalil",
+      "examTitle": "Physics Midterm",
+      "score": 80,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 75,
+      "timestamp": "2024-03-21T10:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "examId": "5",
+      "userId": "9",
+      "studentName": "Karim Hassan",
+      "examTitle": "English Literature",
+      "score": 88,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 100,
+      "timestamp": "2024-03-24T09:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "examId": "5",
+      "userId": "10",
+      "studentName": "Layla Mohamed",
+      "examTitle": "English Literature",
+      "score": 72,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 95,
+      "timestamp": "2024-03-24T09:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "examId": "6",
+      "userId": "11",
+      "studentName": "Zainab Ali",
+      "examTitle": "History Quiz",
+      "score": 92,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 45,
+      "timestamp": "2024-03-25T10:00:00.000Z"
+    },
+    {
+      "id": "14",
+      "examId": "6",
+      "userId": "12",
+      "studentName": "Adam Khalil",
+      "examTitle": "History Quiz",
+      "score": 65,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 50,
+      "timestamp": "2024-03-25T10:15:00.000Z"
+    },
+    {
+      "id": "15",
+      "examId": "7",
+      "userId": "13",
+      "studentName": "Mariam Hassan",
+      "examTitle": "Geography Final",
+      "score": 85,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 80,
+      "timestamp": "2024-03-26T11:00:00.000Z"
+    },
+    {
+      "id": "16",
+      "examId": "7",
+      "userId": "14",
+      "studentName": "Yusuf Ahmed",
+      "examTitle": "Geography Final",
+      "score": 78,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 75,
+      "timestamp": "2024-03-26T11:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "examId": "8",
+      "userId": "15",
+      "studentName": "Nada Mahmoud",
+      "examTitle": "Computer Science",
+      "score": 95,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 100,
+      "timestamp": "2024-03-27T14:00:00.000Z"
+    },
+    {
+      "id": "18",
+      "examId": "8",
+      "userId": "9",
+      "studentName": "Karim Hassan",
+      "examTitle": "Computer Science",
+      "score": 82,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 95,
+      "timestamp": "2024-03-27T14:30:00.000Z"
+    },
+    {
+      "id": "19",
+      "examId": "1",
+      "userId": "10",
+      "studentName": "Layla Mohamed",
+      "examTitle": "Mathematics Final Exam",
+      "score": 88,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 90,
+      "timestamp": "2024-03-20T12:00:00.000Z"
+    },
+    {
+      "id": "20",
+      "examId": "2",
+      "userId": "11",
+      "studentName": "Zainab Ali",
+      "examTitle": "Physics Midterm",
+      "score": 92,
+      "totalQuestions": 3,
+      "totalMarks": 30,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "unansweredQuestions": 0,
+      "passed": true,
+      "passingMarks": 60,
+      "timeTaken": 85,
+      "timestamp": "2024-03-21T11:00:00.000Z"
+    },
+    {
+      "id": "03ac",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 64,
+      "submittedAt": "2025-06-11T03:53:17.549Z"
+    },
+    {
+      "id": "f263",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 68,
+      "submittedAt": "2025-06-11T03:53:21.828Z"
+    },
+    {
+      "id": "9885",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 78,
+      "submittedAt": "2025-06-11T03:53:32.157Z"
+    },
+    {
+      "id": "a1f1",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "4625",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "7a73",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "72b0",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "100d",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "3c31",
+          "selectedAnswer": ""
+        }
+      ],
+      "timeTaken": 0,
+      "submittedAt": "2025-06-11T03:55:54.885Z"
+    },
+    {
+      "id": "f210",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "4625",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "7a73",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "72b0",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "100d",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "3c31",
+          "selectedAnswer": ""
+        }
+      ],
+      "timeTaken": 0,
+      "submittedAt": "2025-06-11T03:55:55.529Z"
+    },
+    {
+      "id": "7bc5",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "4625",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "7a73",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "72b0",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "100d",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "3c31",
+          "selectedAnswer": ""
+        }
+      ],
+      "timeTaken": 0,
+      "submittedAt": "2025-06-11T03:56:00.884Z"
+    },
+    {
+      "id": "89f7",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "4625",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "7a73",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "72b0",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "100d",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "3c31",
+          "selectedAnswer": ""
+        }
+      ],
+      "timeTaken": 0,
+      "submittedAt": "2025-06-11T03:56:01.447Z"
+    },
+    {
+      "id": "236c",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "4625",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "7a73",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "72b0",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "100d",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "3c31",
+          "selectedAnswer": ""
+        }
+      ],
+      "timeTaken": 0,
+      "submittedAt": "2025-06-11T03:56:01.649Z"
+    },
+    {
+      "id": "8c66",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "4625",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "7a73",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "72b0",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "100d",
+          "selectedAnswer": ""
+        },
+        {
+          "questionId": "3c31",
+          "selectedAnswer": ""
+        }
+      ],
+      "timeTaken": 0,
+      "submittedAt": "2025-06-11T03:56:01.830Z"
+    },
+    {
+      "id": "56f7",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 12,
+      "submittedAt": "2025-06-11T03:56:38.930Z"
+    },
+    {
+      "id": "0bf5",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 13,
+      "submittedAt": "2025-06-11T03:56:40.605Z"
+    },
+    {
+      "id": "21ab",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 14,
+      "submittedAt": "2025-06-11T03:56:41.367Z"
+    },
+    {
+      "id": "9e1e",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 19,
+      "submittedAt": "2025-06-11T03:56:46.532Z"
+    },
+    {
+      "id": "bd8c",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 25,
+      "submittedAt": "2025-06-11T03:56:52.523Z"
+    },
+    {
+      "id": "a1b6",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 73,
+      "submittedAt": "2025-06-11T03:57:28.425Z"
+    },
+    {
+      "id": "9b44",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 73,
+      "submittedAt": "2025-06-11T03:57:29.004Z"
+    },
+    {
+      "id": "e5bc",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 73,
+      "submittedAt": "2025-06-11T03:57:29.334Z"
+    },
+    {
+      "id": "3944",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 73,
+      "submittedAt": "2025-06-11T03:57:36.017Z"
+    },
+    {
+      "id": "d0e9",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T03:58:15.236Z"
+    },
+    {
+      "id": "4ea8",
+      "examId": "5a0f",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "3c31",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T03:58:48.765Z"
+    },
+    {
+      "id": "b625",
+      "examId": "9332",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "7265",
+          "selectedAnswer": 4
+        }
+      ],
+      "timeTaken": 4,
+      "submittedAt": "2025-06-11T12:58:25.182Z"
+    },
+    {
+      "id": "68c6",
+      "examId": "e5a4",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "b040",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 3,
+      "submittedAt": "2025-06-11T13:04:54.766Z"
+    },
+    {
+      "id": "9343",
+      "examId": "e5a4",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "b040",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T13:05:35.487Z"
+    },
+    {
+      "id": "c4dc",
+      "examId": "e5a4",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "b040",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T13:05:43.189Z"
+    },
+    {
+      "id": "3e60",
+      "examId": "e5a4",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "b040",
+          "selectedAnswer": 4
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T13:05:49.070Z"
+    },
+    {
+      "id": "cd8d",
+      "examId": "e5a4",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "b040",
+          "selectedAnswer": 3
+        }
+      ],
+      "timeTaken": 1,
+      "submittedAt": "2025-06-11T13:05:52.334Z"
+    },
+    {
+      "id": "c85d",
+      "examId": "e5a4",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "b040",
+          "selectedAnswer": 2
+        }
+      ],
+      "timeTaken": 1,
+      "submittedAt": "2025-06-11T13:05:55.572Z"
+    },
+    {
+      "id": "ae58",
+      "examId": "e5a4",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "b040",
+          "selectedAnswer": 1
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T13:06:12.457Z"
+    },
+    {
+      "id": "8e65",
+      "examId": "7052",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "f1ba",
+          "selectedAnswer": 3
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T13:06:51.131Z"
+    },
+    {
+      "id": "0477",
+      "examId": "7052",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "f1ba",
+          "selectedAnswer": -1
+        }
+      ],
+      "timeTaken": 2,
+      "submittedAt": "2025-06-11T13:08:41.085Z"
+    },
+    {
+      "id": "167f",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "timeTaken": 4,
+      "timestamp": "2025-06-11T13:13:56.763Z"
+    },
+    {
+      "id": "6b08",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "timeTaken": 3,
+      "timestamp": "2025-06-11T13:14:15.157Z"
+    },
+    {
+      "id": "0e58",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 3
+        }
+      ],
+      "timeTaken": 2,
+      "timestamp": "2025-06-11T13:14:31.299Z"
+    },
+    {
+      "id": "c4c8",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 3
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 2,
+      "timestamp": "2025-06-11T13:16:13.682Z"
+    },
+    {
+      "id": "2960",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 4,
+      "timestamp": "2025-06-11T13:16:24.942Z"
+    },
+    {
+      "id": "87ff",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 2,
+      "timestamp": "2025-06-11T13:17:09.179Z"
+    },
+    {
+      "id": "2430",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 5,
+      "timestamp": "2025-06-11T13:17:18.236Z"
+    },
+    {
+      "id": "3f00",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 2,
+      "timestamp": "2025-06-11T13:18:03.691Z"
+    },
+    {
+      "id": "b9af",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 3,
+      "timestamp": "2025-06-11T13:18:13.450Z"
+    },
+    {
+      "id": "46d9",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 3,
+      "timestamp": "2025-06-11T13:19:17.035Z"
+    },
+    {
+      "id": "0cc2",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 3
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 2,
+      "timestamp": "2025-06-11T13:19:30.344Z"
+    },
+    {
+      "id": "c9d9",
+      "examId": "5041",
+      "userId": "1749590235652",
+      "studentName": "hazem",
+      "examTitle": "11111111",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 2
+        }
+      ],
+      "totalQuestions": 1,
+      "totalMarks": 10,
+      "timeTaken": 2,
+      "timestamp": "2025-06-11T13:20:36.801Z"
+    },
+    {
+      "id": "b677",
+      "examId": "5041",
+      "userId": "2",
+      "answers": [
+        {
+          "questionId": "55a3",
+          "selectedAnswer": 3,
+          "correctAnswer": "",
+          "isCorrect": false
+        }
+      ],
+      "timeTaken": 3,
+      "submittedAt": "2025-06-11T13:22:09.381Z"
+    }
+  ],
+  "submissions": []
+}
